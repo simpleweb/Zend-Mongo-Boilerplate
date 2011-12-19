@@ -1,0 +1,9 @@
+php_flag magic_quotes_gpc Off
+php_value memory_limit 1024M
+php_value post_max_size 10M
+php_value upload_max_filesize 10M
+php_value session.auto_start 0
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule !\.(js|ico|gif|jpg|png|css)$ /index.php
