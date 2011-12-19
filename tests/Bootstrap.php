@@ -11,3 +11,6 @@ set_include_path(implode(PATH_SEPARATOR, array(
 
 // Define application environment
 define('APPLICATION_ENV', 'testing');
+
+require_once 'Zend/Application.php';
+require_once 'Zend/Test/PHPUnit/ControllerTestCase.php';

@@ -3,7 +3,7 @@
     <production>
         <url>zend-mongo-boilerplate.com</url>
 
-        <mongo>mongodb://127.0.0.1:27017/zend-mongo-boilerplate.com</mongo>
+        <mongo>mongodb://127.0.0.1:27017/zend-mongo-boilerplate-com</mongo>
 
     </production>
 
@@ -13,8 +13,16 @@
 
         <exceptions>true</exceptions>
 
-        <mongo>mongodb://127.0.0.1:27017/zend-mongo-boilerplate.dev</mongo>
+        <mongo>mongodb://127.0.0.1:27017/zend-mongo-boilerplate-dev</mongo>
 
     </dev>
+
+    <testing extends="production">
+
+        <exceptions>true</exceptions>
+
+        <mongo>mongodb://127.0.0.1:27017/zend-mongo-boilerplate-testing</mongo>
+
+    </testing>
 
 </configdata>

@@ -1,11 +1,5 @@
 <?php
-require_once 'IndexControllerTest.php';
-require_once 'SpacesControllerTest.php';
-require_once 'AppTest.php';
-require_once 'ContactTest.php';
-require_once 'UserTest.php';
-require_once 'BillingTest.php';
-require_once 'TokenTest.php';
+require_once 'DefaultTest.php';
 
 class AllTests extends PHPUnit_Framework_TestSuite
 {
